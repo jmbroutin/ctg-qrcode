@@ -1,0 +1,46 @@
+.laptop {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://cdn.comparez-malin.fr/img/apple/2019/17273/apple-macbook-pro-13-touchbar-gris-sideral-2018-3.jpg");
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+}
+
+.sticker {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+ngx-qrcode:hover {
+  cursor: pointer;
+}
+
+.stickerHeader {
+  display: flex;
+  justify-content: space-around;
+  color: #0157A4;
+}
+
+#logoCTG {
+  height: 70px;
+  width: 70px;
+}
+
+.stickerContainer {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+}
+
+#qrRandomCode {
+  font-weight: bold;
+}
